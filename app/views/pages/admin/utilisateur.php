@@ -66,7 +66,7 @@ require_once __DIR__.'/../../../config/config.php';
                     </a>
                     <ul class="absolute left-0 w-full bg-white bg-opacity-10 rounded-xl mt-2 hidden" id="categoriesDropdown">
                         <li>
-                            <a href="#" class="flex items-center space-x-4 px-6 py-4 hover:bg-white hover:bg-opacity-10 rounded-xl">
+                            <a href="<?= URL ?>/CategorieController/afficherCategories" class="flex items-center space-x-4 px-6 py-4 hover:bg-white hover:bg-opacity-10 rounded-xl">
                                 <i class="fas fa-tags text-lg"></i>
                                 <span class="font-medium">Catégories</span>
                             </a>
