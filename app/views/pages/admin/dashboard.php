@@ -70,7 +70,7 @@ $top3Enseignants = $_SESSION['top3Enseignants'] ?? [];
                             </a>
                         </li>
                         <li>
-                            <a href="tags.php" class="flex items-center space-x-4 px-6 py-4 hover:bg-white hover:bg-opacity-10 rounded-xl">
+                            <a href="<?= URL ?>/TagController/afficherTags" class="flex items-center space-x-4 px-6 py-4 hover:bg-white hover:bg-opacity-10 rounded-xl">
                                 <i class="fas fa-hashtag text-lg"></i>
                                 <span class="font-medium">Tags</span>
                             </a>

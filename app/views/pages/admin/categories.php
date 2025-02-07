@@ -46,7 +46,7 @@ require_once __DIR__.'/../../../config/config.php';
                     <i class="fas fa-users text-lg"></i>
                     <span class="font-medium">Utilisateurs</span>
                 </a>
-                <a href="cours.php" class="flex items-center space-x-4 px-6 py-4 hover:bg-white hover:bg-opacity-10 rounded-xl">
+                <a href="#" class="flex items-center space-x-4 px-6 py-4 hover:bg-white hover:bg-opacity-10 rounded-xl">
                     <i class="fas fa-book text-lg"></i>
                     <span class="font-medium">Cours</span>
                 </a>
@@ -64,7 +64,7 @@ require_once __DIR__.'/../../../config/config.php';
                             </a>
                         </li>
                         <li>
-                            <a href="tags.php" class="flex items-center space-x-4 px-6 py-4 hover:bg-white hover:bg-opacity-10 rounded-xl">
+                            <a href="<?= URL ?>/TagController/afficherTags" class="flex items-center space-x-4 px-6 py-4 hover:bg-white hover:bg-opacity-10 rounded-xl">
                                 <i class="fas fa-hashtag text-lg"></i>
                                 <span class="font-medium">Tags</span>
                             </a>
@@ -93,6 +93,8 @@ require_once __DIR__.'/../../../config/config.php';
                 }
             });
         </script>
+
+        
 
         <!-- Main Content -->
         <main class="flex-1 ml-72 p-8">
